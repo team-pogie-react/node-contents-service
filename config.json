@@ -1,0 +1,35 @@
+{
+    "development": {
+        "config_id": "development",
+        "app_name": "Contents Service",
+        "app_desc": "Fetch Pimcore contents data.",
+        "app_path": "/Contents/v1",
+        "node_port": 3000,
+        "json_indentation": 4,
+        "pimcore_options": {
+            "host": "seopagecmsng.staging.usautoparts.com",
+            "apikey": "3fd56c7d6aa684298863af4a37fbde85974a4b9380f673bd3a4b7727d1b61a4f"
+        }
+    },
+    "testing": {
+        "config_id": "testing"
+    },
+    "staging": {
+        "config_id": "staging",
+        "app_path": "/Contents/v1",
+        "node_port": 8080,
+        "pimcore_options": {
+            "host": "seopagecmsng.staging.usautoparts.com",
+            "apikey": "3fd56c7d6aa684298863af4a37fbde85974a4b9380f673bd3a4b7727d1b61a4f"
+        }
+    },
+    "production": {
+        "config_id": "production",
+        "app_path": "/Contents/v1",
+        "node_port": 8080,
+        "pimcore_options": {
+            "host": "seopagecmsng-aws.usap.1ux.it",
+            "apikey": "3fd56c7d6aa684298863af4a37fbde85974a4b9380f673bd3a4b7727d1b61a4f"
+        }
+    }
+}
